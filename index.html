@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open Science & Research Data Management Week</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+<style>
+
+body{
+background:#f6f8fc;
+font-family:Segoe UI,Arial,sans-serif;
+}
+
+.hero{
+background:linear-gradient(135deg,#003366,#005fa3,#0099cc);
+padding:80px 40px;
+color:white;
+border-radius:20px;
+}
+
+.hero h1{
+font-weight:700;
+}
+
+.navbar-custom{
+background:#003366;
+border-radius:15px;
+}
+
+.navbar-custom .nav-link{
+color:#e8f1fb !important;
+font-weight:600;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active{
+color:#ffc107 !important;
+}
+
+.section-title{
+font-weight:700;
+color:#003366;
+margin-bottom:20px;
+}
+
+.card{
+border:none;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.icon-box{
+font-size:45px;
+color:#0d6efd;
+}
+
+.person img{
+height:220px;
+width:100%;
+object-fit:cover;
+border-radius:12px;
+}
+
+.register{
+background:#003366;
+color:white;
+padding:50px;
+border-radius:20px;
+}
+
+footer{
+background:#002244;
+color:white;
+padding:20px;
+}
+
+.badge{
+font-size:15px;
+}
+
+/* Schedule styles (from Event page) */
+
+.nav-pills .nav-link{
+border-radius:50px;
+font-weight:600;
+margin:5px;
+}
+
+.nav-pills .nav-link.active{
+background:#0d6efd;
+}
+
+.day-title{
+font-size:28px;
+font-weight:700;
+margin:30px 0 20px;
+color:#222;
+}
+
+.session-card{
+background:#fff;
+border-radius:15px;
+padding:25px;
+margin-bottom:25px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+border-left:6px solid #0d6efd;
+transition:.3s;
+}
+
+.session-card:hover{
+transform:translateY(-3px);
+}
+
+.time{
+color:#0d6efd;
+font-size:20px;
+font-weight:700;
+}
+
+.title{
+font-size:24px;
+font-weight:700;
+margin-top:10px;
+}
+
+.info{
+margin-top:15px;
+line-height:2;
+}
+
+.info i{
+color:#0d6efd;
+width:28px;
+}
+
+@media (max-width: 576px){
+.hero{padding:50px 20px;}
+.day-title{font-size:22px;}
+.time{font-size:17px;}
+.title{font-size:20px;}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container my-5">
+
+<!-- HERO -->
+<div class="hero text-center">
+<h1 class="display-5">Open Science &amp; Research Data Management Week</h1>
+<h4 class="mt-3">20–23 July 2026</h4>
+</div>
+
+<!-- IN-PAGE NAVIGATION -->
+<nav class="navbar navbar-expand-lg navbar-custom mt-4 px-3">
+<div class="container-fluid">
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-center" id="mainNav">
+<ul class="navbar-nav gap-lg-4">
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#resource-persons">Resource Persons</a></li>
+<li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+<li class="nav-item"><a class="nav-link" href="#register">Register</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- ABOUT -->
+<div class="mt-5" id="about">
+<h2 class="section-title">About the Programme</h2>
+<div class="card p-4">
+<p class="mb-0">Join Dr. Sophie G. Habinger and Dr. Maximilian E. Müller from the University of Konstanz, Germany, for an inspiring week of lectures, hands-on laboratory sessions, and interactive workshops on Open Science and Research Data Management (RDM).</p>
+</div>
+</div>
+
+<!-- RESOURCE PERSONS -->
+<div class="mt-5" id="resource-persons">
+<h2 class="section-title">Resource Persons</h2>
+
+<div class="row g-4">
+
+<div class="col-md-6">
+<div class="card person p-4 h-100">
+<img src="YOUR-SOPHIE-IMAGE-LINK" class="img-fluid" alt="Dr. Sophie G. Habinger">
+<h4 class="mt-3">Dr. Sophie G. Habinger</h4>
+<p class="mb-0">University of Konstanz<br>Germany</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="card person p-4 h-100">
+<img src="YOUR-MAX-IMAGE-LINK" class="img-fluid" alt="Dr. Maximilian E. Müller">
+<h4 class="mt-3">Dr. Maximilian E. Müller</h4>
+<p class="mb-0">University of Konstanz<br>Germany</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- SCHEDULE (merged from Event.html) -->
+<div class="mt-5" id="schedule">
+<h2 class="section-title text-center text-md-start">Session Schedule</h2>
+
+<ul class="nav nav-pills justify-content-center my-4" id="scheduleTab" role="tablist">
+
+<li class="nav-item">
+<button class="nav-link active" data-bs-toggle="pill" data-bs-target="#day1">Day 1</button>
+</li>
+
+<li class="nav-item">
+<button class="nav-link" data-bs-toggle="pill" data-bs-target="#day2">Day 2</button>
+</li>
+
+<li class="nav-item">
+<button class="nav-link" data-bs-toggle="pill" data-bs-target="#day3">Day 3</button>
+</li>
+
+<li class="nav-item">
+<button class="nav-link" data-bs-toggle="pill" data-bs-target="#day4">Day 4</button>
+</li>
+
+</ul>
+
+<div class="tab-content">
+
+<!-- DAY 1 -->
+<div class="tab-pane fade show active" id="day1">
+<div class="day-title">Monday • 20 July 2026</div>
+
+<div class="session-card">
+<div class="time"><i class="bi bi-clock"></i> 09:00 AM – 11:00 AM</div>
+<div class="title">Introduction to Research Data Management</div>
+<p class="mt-3">Core principles of Research Data Management within Open Science, the FAIR principles and practical low-effort methods for organising, documenting and backing up research data with hands-on exercises.</p>
+<div class="info">
+<div><i class="bi bi-building"></i> Venue: SDC Center</div>
+<div><i class="bi bi-laptop"></i> Mode: <span class="badge bg-success">In Person</span></div>
+<div><i class="bi bi-people"></i> Target Group: Academic Staff, Administrative &amp; Technical Staff, Students</div>
+</div>
+</div>
+
+<div class="session-card">
+<div class="time"><i class="bi bi-clock"></i> 02:00 PM – 03:00 PM</div>
+<div class="title">RDM and Open Science in Sri Lanka — Public Event</div>
+<p>General public event including an impulse talk: <strong>Embracing Open Science: From Institutional Strategy to National Initiative</strong> followed by an open participatory discussion.</p>
+<div class="info">
+<div><i class="bi bi-building"></i> Venue: SDC Center</div>
+<div><i class="bi bi-broadcast"></i> Mode: <span class="badge bg-warning text-dark">Hybrid</span></div>
+<div><i class="bi bi-people"></i> Target Group: General Public, Administrative &amp; Technical Staff, RDM Stakeholders</div>
+</div>
+</div>
+
+</div>
+
+<!-- DAY 2 -->
+<div class="tab-pane fade" id="day2">
+<div class="day-title">Tuesday • 21 July 2026</div>
+
+<div class="session-card">
+<div class="time"><i class="bi bi-clock"></i> 09:00 AM – 11:00 AM</div>
+<div class="title">Workshop on RDM Tools for the Humanities</div>
+<p>Explore data types typical of Humanities research and the tools and practices that address their specific challenges.</p>
+<div class="info">
+<div><i class="bi bi-building"></i> Venue: Computer Unit</div>
+<div><i class="bi bi-laptop"></i> <span class="badge bg-success">In Person</span></div>
+<div><i class="bi bi-people"></i> Academic Staff, Students</div>
+</div>
+</div>
+
+<div class="session-card">
+<div class="time"><i class="bi bi-clock"></i> 11:30 AM – 01:00 PM</div>
+<div class="title">How to Create and Use Data Management Plans Efficiently</div>
+<p>Learn the purpose and key components of a Data Management Plan (DMP) and build one yourself using templates and guided exercises. Mock projects are provided; you may also bring your own.</p>
+<div class="info">
+<div><i class="bi bi-building"></i> Venue: Computer Unit</div>
+<div><i class="bi bi-laptop"></i> <span class="badge bg-success">Hands-on Lab</span></div>
+<div><i class="bi bi-people"></i> Academic Staff, Students</div>
+</div>
+</div>
+
+<div class="session-card">
+<div class="time"><i class="bi bi-clock"></i> 02:30 PM – 03:30 PM</div>
+<div class="title">What the PID?! Understanding and Leveraging Persistent Identifiers</div>
+<p>Discover what Persistent Identifiers (PIDs) are and how to use them to boost documentation, RDM practice and the visibility of your research output.</p>
+<div class="info">
+<div><i class="bi bi-building"></i> Venue: Computer Unit</div>
+<div><i class="bi bi-laptop"></i> <span class="badge bg-success">Hands-on Lab</span></div>
+<div><i class="bi bi-people"></i> Academic Staff, Students</div>
+</div>
+</div>
+
+</div>
+
+<!-- DAY 3 -->
+<div class="tab-pane fade" id="day3">
+<div class="day-title">Wednesday • 22 July 2026</div>
+
+<div class="session-card">
+<div class="time"><i class="bi bi-clock"></i> 09:00 AM – 11:00 AM</div>
+<div class="title">Data Publication and Repositories – Data Types, Metadata and Requirements for a FAIR Data Repository</div>
+<p>Why and how to publish research data: quality criteria for data publications, selecting an appropriate repository, and responsibly sharing sensitive or personal data. No prior RDM knowledge required.</p>
+<div class="info">
+<div><i class="bi bi-building"></i> Venue: SDC Center</div>
+<div><i class="bi bi-laptop"></i> <span class="badge bg-success">In Person</span></div>
+<div><i class="bi bi-people"></i> Academic Staff, Administrative Staff, Students</div>
+</div>
+</div>
+
+</div>
+
+<!-- DAY 4 -->
+<div class="tab-pane fade" id="day4">
+<div class="day-title">Thursday • 23 July 2026</div>
+
+<div class="session-card">
+<div class="time"><i class="bi bi-clock"></i> 09:00 AM – 11:00 AM</div>
+<div class="title">Repositories 1 — Setting Up and Operating a Research Data Repository</div>
+<p>A practical introduction to the principles, technical foundations and organisational requirements of a trustworthy research data repository, including repository architectures, metadata strategies and governance documents.</p>
+<div class="info">
+<div><i class="bi bi-building"></i> Venue: SDC Center</div>
+<div><i class="bi bi-laptop"></i> <span class="badge bg-success">In Person</span></div>
+<div><i class="bi bi-people"></i> Administrative &amp; Technical Staff</div>
+</div>
+</div>
+
+<div class="session-card">
+<div class="time"><i class="bi bi-clock"></i> 01:30 PM – 03:30 PM</div>
+<div class="title">Repositories 2 — Roadmap towards an RDM Repository for Jaffna &amp; Sri Lanka (live demo of KOPS &amp; KonDATA)</div>
+<p>A live demonstration of the University of Konstanz's KOPS and KonDATA repositories, followed by discussion of local needs and the first steps toward a roadmap for a sustainable Sri Lankan research data repository.</p>
+<div class="info">
+<div><i class="bi bi-building"></i> Venue: SDC Center</div>
+<div><i class="bi bi-laptop"></i> <span class="badge bg-success">In Person</span></div>
+<div><i class="bi bi-people"></i> Technical Staff, Library Staff, Network Managers</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- REGISTER -->
+<div class="register mt-5 text-center" id="register">
+<p>Registration is now open.</p>
+<a href="https://docs.google.com/forms/d/1h4ogloAtwgBZerZReqSn_ROOMD5OxCcrOovKoyrVjDc/"
+target="_blank"
+class="btn btn-warning btn-lg">
+<i class="bi bi-pencil-square"></i>
+Register Here
+</a>
+</div>
+
+<footer class="text-center mt-5 rounded">
+Organized by
+<strong>University of Jaffna Library</strong>
+with the support of
+<strong>DigSAL Project and DAAD</strong>
+</footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
